@@ -1,0 +1,62 @@
+[2025-04-30 23:26:56] [/workspaces/In-Class-Exercise-4] source .devcontainer/shell.sh
+[2025-04-30 23:26:59] [/workspaces/In-Class-Exercise-4] ls
+[2025-04-30 23:27:17] [/workspaces/In-Class-Exercise-4] ls exercise/ > output.txt
+[2025-04-30 23:28:49] [/workspaces/In-Class-Exercise-4] ls exercise/ | wc -1
+[2025-04-30 23:29:02] [/workspaces/In-Class-Exercise-4] ls exercise/ | wc - l
+[2025-04-30 23:29:09] [/workspaces/In-Class-Exercise-4] ls exercise/
+[2025-04-30 23:29:33] [/workspaces/In-Class-Exercise-4] cat exercise/duplicates.txt | uniq | sort
+[2025-04-30 23:31:11] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+[2025-04-30 23:31:33] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+
+
+hell cs190
+
+
+
+
+ready for midterms?
+EOF
+[2025-04-30 23:32:28] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+
+
+hell cs190
+
+
+
+
+ready for midterms?
+EOF
+[2025-04-30 23:32:29] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+
+
+hell cs190
+
+
+
+
+ready for midterms?
+EOF
+[2025-04-30 23:32:29] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+
+
+hell cs190
+
+
+
+
+ready for midterms?
+EOF
+[2025-04-30 23:32:29] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+
+
+hell cs190
+
+
+
+
+ready for midterms?
+EOF
+[2025-04-30 23:33:19] [/workspaces/In-Class-Exercise-4] ls dir1
+[2025-04-30 23:33:30] [/workspaces/In-Class-Exercise-4] ls exercise/dir1/
+[2025-04-30 23:34:19] [/workspaces/In-Class-Exercise-4] diff <(ls exercise/dir1)
+[2025-04-30 23:34:38] [/workspaces/In-Class-Exercise-4] diff <(ls exercise/dir1) < <(ls exercise/dir2)
